@@ -1,0 +1,24 @@
+#PROTECT FROM SPAM
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{REQUEST_URI} \fpoll\*
+RewriteCond %{HTTP_REFERER} !.*adventuresinfastfood.com.* [OR]
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule (.*) http://%{REMOTE_ADDR}/$ [R=301,L]
+
+
+#HTACCESS Cache
+<ifModule mod_headers.c>
+# YEAR
+<filesMatch "\.(ico|gif|jpg|jpeg|png|flv|pdf)$">
+  Header set Cache-Control "max-age=29030400"
+</filesMatch>
+# WEEK
+<filesMatch "\.(js|css|swf)$">
+  Header set Cache-Control "max-age=604800, must-revalidate"
+</filesMatch>
+# 2 HOURS
+<filesMatch "\.(html|htm|txt|php)$">
+ Header set Cache-Control "max-age=7200, must-revalidate"
+</filesMatch>
+</ifModule>

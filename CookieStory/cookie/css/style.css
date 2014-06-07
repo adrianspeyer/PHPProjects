@@ -1,0 +1,18 @@
+.cookieinfobox {
+background-color: #F4F4F4;
+border: 1px solid #CCC;
+height: 100px;
+width: 200px;
+padding: 5px;
+display:none;
+position:absolute;
+}
+
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}

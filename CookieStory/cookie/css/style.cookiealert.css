@@ -1,0 +1,12 @@
+
+div#cookieinfobox {
+background-color: #f1f1f1;
+width: 150px;
+width: 100%;
+width: auto;
+color: black;
+border: #0000cc 2px; 
+display: none;
+padding: 2px;
+font-size:8pt
+}

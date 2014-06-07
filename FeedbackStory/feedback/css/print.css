@@ -1,0 +1,72 @@
+ 
+#sidebar {
+display:none;
+}
+
+#top-panel {
+display:none;
+}
+
+#header {
+display:none;
+}
+
+#header h2 {
+display:none;
+}
+
+#reportbox {
+  display:none;
+}
+
+#infobox {
+  display:none;
+}
+
+#happybox
+{
+  display:none;
+}
+
+#content {
+  float:center;
+  width:960px;
+  }
+  
+  #logtable {
+  float:center;
+  width:960px;
+}
+
+#logbox_length{
+  display:none;
+}
+
+
+ #logbox_filter {
+  display:none;
+}
+
+
+#successbox
+{
+  display:none;
+}
+
+
+#cloudbox
+{
+  display:none;
+}
+
+#mapbox
+{
+  display:none;
+}
+
+#sidebar2{
+  display:none;
+}
+
+a:link:after, a:visited:after { content:" [" attr(href) "] "; }
+

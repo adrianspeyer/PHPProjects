@@ -1,0 +1,145 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+}
+
+
+#pollWrap {
+text-align:center;
+}
+
+
+#pollWrap h3 {
+	font-size: 1em;
+	margin-bottom: 5px;
+}
+
+#pollWrap ul {
+	margin: 0;
+	padding: 0 0 0 5px;
+	list-style:none;
+
+}
+
+#pollWrap li {
+	padding: 0;
+	overflow:hidden; /*for our lovely friend IE6 to behave nicely*/
+	font-size: 0.8em;
+
+}
+
+#pollWrap li span {
+	font-size: 0.7em;
+}
+
+#thanksWrap 
+{
+margin: 0 auto;
+	padding: 10px;
+	width: 520px;
+	height: 150px;
+	border: 1px solid #CCC;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #EFEFEF;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#thanksWrap  p
+{
+text-align:center;
+}
+
+
+#thanks2Wrap 
+{
+margin: 0 auto;
+	padding: 10px;
+	width: 520px;
+	height: 160px;
+	border: 1px solid #CCC;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #EFEFEF;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+
+
+#thanks2Wrap  p
+{
+text-align:center;
+}
+
+
+
+
+
+#pollSubmit {
+	margin-top: 5px;
+}
+
+#pollMessage {
+	color:#C00;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+
+#titleWrap {
+	margin: 20px auto 20px auto;
+	padding: 10px;
+	width: 520px;
+	border: 1px solid #CCC;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #FC0;
+	font-size: 1.2em;
+	color: #fff;
+	text-align:center;
+}
+
+#headerWrap {
+	margin: 0 auto 20px auto;
+	padding: 10px;
+	width: 520px;
+	border: 1px solid #CCC;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #F60;
+	font-size: 0.8em;
+	color: #fff;
+	text-align:center;
+}
+
+#headerWrap a:link{text-decoration:underline;color:#fff;}
+#headerWrap a:active{text-decoration:underline;color:#fff;}
+#headerWrap a:visited{text-decoration:underline;color:#fff;}
+#headerWrap a:hover{text-decoration:none;}
+#contentWrap {
+	margin: 0 auto;
+	padding: 10px;
+	width: 520px;
+	/*height: 650px;*/
+	border: 1px solid #CCC;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #EFEFEF;
+}
+
+#leftWrap {
+	float: left;
+}
+
+#rightWrap {
+	float: right;
+	padding: 10px;
+	width: 200px;
+	border: 1px solid #CCC;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #fff;
+	font-size: 0.8em;
+}
